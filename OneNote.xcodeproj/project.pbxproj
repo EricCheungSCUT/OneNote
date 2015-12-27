@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221060DB1C040D5000B49A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221060DA1C040D5000B49A89 /* main.m */; };
+		221060DE1C040D5000B49A89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 221060DD1C040D5000B49A89 /* AppDelegate.m */; };
+		221060E61C040D5000B49A89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221060E51C040D5000B49A89 /* Images.xcassets */; };
+		221060F41C040D5100B49A89 /* OneNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221060F31C040D5100B49A89 /* OneNoteTests.m */; };
+		221060FF1C040D5100B49A89 /* OneNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221060FE1C040D5100B49A89 /* OneNoteUITests.m */; };
+		223E130A1C2FF34A00674B55 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223E13091C2FF34A00674B55 /* TencentOpenAPI.framework */; };
+		223E130C1C2FF37A00674B55 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223E130B1C2FF37A00674B55 /* BmobSDK.framework */; };
+		22B276691C0EEC240059A167 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B276681C0EEC240059A167 /* GuideViewController.m */; };
+		22B2766E1C0EF1400059A167 /* GuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B2766D1C0EF1400059A167 /* GuideView.m */; };
+		22B276731C0F14400059A167 /* HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B276721C0F14400059A167 /* HomeView.m */; };
+		22B276761C0F14550059A167 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B276751C0F14550059A167 /* HomeViewController.m */; };
+		22B276791C0F19760059A167 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22B2767B1C0F19760059A167 /* Localizable.strings */; };
+		22B2768B1C13D8C10059A167 /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B276881C13D8C10059A167 /* LeftSlideViewController.m */; };
+		22B2768C1C13D8C10059A167 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B2768A1C13D8C10059A167 /* UIView_extra.m */; };
+		22B276911C13D8DC0059A167 /* otherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B2768E1C13D8DC0059A167 /* otherViewController.m */; };
+		22B276921C13D8DC0059A167 /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B276901C13D8DC0059A167 /* LeftSortsViewController.m */; };
+		22B2769B1C1529C00059A167 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B2769A1C1529C00059A167 /* libz.1.1.3.tbd */; };
+		22B2769D1C1529CC0059A167 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B2769C1C1529CC0059A167 /* libstdc++.tbd */; };
+		22B2769F1C1529D50059A167 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B2769E1C1529D50059A167 /* MediaPlayer.framework */; };
+		22B276A11C1529DE0059A167 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276A01C1529DE0059A167 /* AVFoundation.framework */; };
+		22B276A31C1529EB0059A167 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276A21C1529EB0059A167 /* libsqlite3.tbd */; };
+		22B276A51C1529F80059A167 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276A41C1529F80059A167 /* libicucore.tbd */; };
+		22B276A71C152A070059A167 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276A61C152A070059A167 /* libz.1.2.5.tbd */; };
+		22B276A91C152A170059A167 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276A81C152A170059A167 /* SystemConfiguration.framework */; };
+		22B276AB1C152A230059A167 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276AA1C152A230059A167 /* CoreTelephony.framework */; };
+		22B276AD1C152A320059A167 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276AC1C152A320059A167 /* CFNetwork.framework */; };
+		22B276AF1C152A450059A167 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276AE1C152A450059A167 /* MobileCoreServices.framework */; };
+		22B276B11C152A590059A167 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276B01C152A590059A167 /* CoreGraphics.framework */; };
+		22B276B31C152A620059A167 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276B21C152A620059A167 /* Security.framework */; };
+		22B276B51C152A6D0059A167 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276B41C152A6D0059A167 /* CoreLocation.framework */; };
+		22B276B81C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22B276B61C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		22B276C51C152D900059A167 /* Bmob_iOS_SDK更新历史.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22B276C41C152D900059A167 /* Bmob_iOS_SDK更新历史.txt */; };
+		22B276C61C15851D0059A167 /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276B61C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		221060F01C040D5100B49A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221060CE1C040D5000B49A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221060D51C040D5000B49A89;
+			remoteInfo = OneNote;
+		};
+		221060FB1C040D5100B49A89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 221060CE1C040D5000B49A89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221060D51C040D5000B49A89;
+			remoteInfo = OneNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221060D61C040D5000B49A89 /* OneNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		221060DA1C040D5000B49A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		221060DC1C040D5000B49A89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		221060DD1C040D5000B49A89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		221060E51C040D5000B49A89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		221060EA1C040D5100B49A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221060EF1C040D5100B49A89 /* OneNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221060F31C040D5100B49A89 /* OneNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneNoteTests.m; sourceTree = "<group>"; };
+		221060F51C040D5100B49A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		221060FA1C040D5100B49A89 /* OneNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221060FE1C040D5100B49A89 /* OneNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneNoteUITests.m; sourceTree = "<group>"; };
+		221061001C040D5100B49A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223E13091C2FF34A00674B55 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = "QQ SDK/TencentOpenAPI.framework"; sourceTree = "<group>"; };
+		223E130B1C2FF37A00674B55 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BmobSDK.framework; path = "Bmob SDK/Bmob_SDK_iOS_v1.6.5/BmobSDK.framework"; sourceTree = "<group>"; };
+		22B276671C0EEC240059A167 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		22B276681C0EEC240059A167 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		22B2766C1C0EF1400059A167 /* GuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideView.h; sourceTree = "<group>"; };
+		22B2766D1C0EF1400059A167 /* GuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideView.m; sourceTree = "<group>"; };
+		22B276711C0F14400059A167 /* HomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeView.h; sourceTree = "<group>"; };
+		22B276721C0F14400059A167 /* HomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeView.m; sourceTree = "<group>"; };
+		22B276741C0F14550059A167 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		22B276751C0F14550059A167 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		22B2767A1C0F19760059A167 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		22B2767C1C0F19FA0059A167 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		22B276871C13D8C10059A167 /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		22B276881C13D8C10059A167 /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		22B276891C13D8C10059A167 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		22B2768A1C13D8C10059A167 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		22B2768D1C13D8DC0059A167 /* otherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherViewController.h; sourceTree = "<group>"; };
+		22B2768E1C13D8DC0059A167 /* otherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherViewController.m; sourceTree = "<group>"; };
+		22B2768F1C13D8DC0059A167 /* LeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortsViewController.h; sourceTree = "<group>"; };
+		22B276901C13D8DC0059A167 /* LeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortsViewController.m; sourceTree = "<group>"; };
+		22B276951C1528EE0059A167 /* OneNotePrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneNotePrefixHeader.pch; sourceTree = "<group>"; };
+		22B2769A1C1529C00059A167 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		22B2769C1C1529CC0059A167 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		22B2769E1C1529D50059A167 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		22B276A01C1529DE0059A167 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		22B276A21C1529EB0059A167 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		22B276A41C1529F80059A167 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		22B276A61C152A070059A167 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		22B276A81C152A170059A167 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		22B276AA1C152A230059A167 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		22B276AC1C152A320059A167 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		22B276AE1C152A450059A167 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		22B276B01C152A590059A167 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22B276B21C152A620059A167 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		22B276B41C152A6D0059A167 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		22B276B61C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = "QQ SDK/TencentOpenApi_IOS_Bundle.bundle"; sourceTree = "<group>"; };
+		22B276C41C152D900059A167 /* Bmob_iOS_SDK更新历史.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Bmob_iOS_SDK更新历史.txt"; path = "Bmob SDK/Bmob_SDK_iOS_v1.6.5/Bmob_iOS_SDK更新历史.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221060D31C040D5000B49A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B276B51C152A6D0059A167 /* CoreLocation.framework in Frameworks */,
+				22B276B31C152A620059A167 /* Security.framework in Frameworks */,
+				22B276B11C152A590059A167 /* CoreGraphics.framework in Frameworks */,
+				22B276AF1C152A450059A167 /* MobileCoreServices.framework in Frameworks */,
+				22B276AD1C152A320059A167 /* CFNetwork.framework in Frameworks */,
+				22B276AB1C152A230059A167 /* CoreTelephony.framework in Frameworks */,
+				22B276A91C152A170059A167 /* SystemConfiguration.framework in Frameworks */,
+				223E130A1C2FF34A00674B55 /* TencentOpenAPI.framework in Frameworks */,
+				22B2769D1C1529CC0059A167 /* libstdc++.tbd in Frameworks */,
+				22B2769B1C1529C00059A167 /* libz.1.1.3.tbd in Frameworks */,
+				22B276A71C152A070059A167 /* libz.1.2.5.tbd in Frameworks */,
+				22B276C61C15851D0059A167 /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */,
+				22B276A51C1529F80059A167 /* libicucore.tbd in Frameworks */,
+				223E130C1C2FF37A00674B55 /* BmobSDK.framework in Frameworks */,
+				22B276A31C1529EB0059A167 /* libsqlite3.tbd in Frameworks */,
+				22B276A11C1529DE0059A167 /* AVFoundation.framework in Frameworks */,
+				22B2769F1C1529D50059A167 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221060EC1C040D5100B49A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221060F71C040D5100B49A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221060CD1C040D5000B49A89 = {
+			isa = PBXGroup;
+			children = (
+				22B276961C1529700059A167 /* Frameworks & SDK */,
+				221060D81C040D5000B49A89 /* OneNote */,
+				221060F21C040D5100B49A89 /* OneNoteTests */,
+				221060FD1C040D5100B49A89 /* OneNoteUITests */,
+				221060D71C040D5000B49A89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		221060D71C040D5000B49A89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				221060D61C040D5000B49A89 /* OneNote.app */,
+				221060EF1C040D5100B49A89 /* OneNoteTests.xctest */,
+				221060FA1C040D5100B49A89 /* OneNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		221060D81C040D5000B49A89 /* OneNote */ = {
+			isa = PBXGroup;
+			children = (
+				22B276941C1528300059A167 /* QQ接口登陆 */,
+				22B276931C1528190059A167 /* Bmob */,
+				221060DC1C040D5000B49A89 /* AppDelegate.h */,
+				221060DD1C040D5000B49A89 /* AppDelegate.m */,
+				22B276951C1528EE0059A167 /* OneNotePrefixHeader.pch */,
+				221060E51C040D5000B49A89 /* Images.xcassets */,
+				22B2766F1C0F137F0059A167 /* 引导页 */,
+				22B276701C0F141F0059A167 /* Home */,
+				221060EA1C040D5100B49A89 /* Info.plist */,
+				22B2767D1C13D0C10059A167 /* 侧边栏（抽屉） */,
+				221060D91C040D5000B49A89 /* Supporting Files */,
+			);
+			path = OneNote;
+			sourceTree = "<group>";
+		};
+		221060D91C040D5000B49A89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				221060DA1C040D5000B49A89 /* main.m */,
+				22B2767B1C0F19760059A167 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		221060F21C040D5100B49A89 /* OneNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				221060F31C040D5100B49A89 /* OneNoteTests.m */,
+				221060F51C040D5100B49A89 /* Info.plist */,
+			);
+			path = OneNoteTests;
+			sourceTree = "<group>";
+		};
+		221060FD1C040D5100B49A89 /* OneNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				221060FE1C040D5100B49A89 /* OneNoteUITests.m */,
+				221061001C040D5100B49A89 /* Info.plist */,
+			);
+			path = OneNoteUITests;
+			sourceTree = "<group>";
+		};
+		22B2766F1C0F137F0059A167 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				22B2766C1C0EF1400059A167 /* GuideView.h */,
+				22B2766D1C0EF1400059A167 /* GuideView.m */,
+				22B276671C0EEC240059A167 /* GuideViewController.h */,
+				22B276681C0EEC240059A167 /* GuideViewController.m */,
+			);
+			name = "引导页";
+			sourceTree = "<group>";
+		};
+		22B276701C0F141F0059A167 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				22B276711C0F14400059A167 /* HomeView.h */,
+				22B276721C0F14400059A167 /* HomeView.m */,
+				22B276741C0F14550059A167 /* HomeViewController.h */,
+				22B276751C0F14550059A167 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		22B2767D1C13D0C10059A167 /* 侧边栏（抽屉） */ = {
+			isa = PBXGroup;
+			children = (
+				22B276871C13D8C10059A167 /* LeftSlideViewController.h */,
+				22B276881C13D8C10059A167 /* LeftSlideViewController.m */,
+				22B276891C13D8C10059A167 /* UIView_extra.h */,
+				22B2768A1C13D8C10059A167 /* UIView_extra.m */,
+				22B2768D1C13D8DC0059A167 /* otherViewController.h */,
+				22B2768E1C13D8DC0059A167 /* otherViewController.m */,
+				22B2768F1C13D8DC0059A167 /* LeftSortsViewController.h */,
+				22B276901C13D8DC0059A167 /* LeftSortsViewController.m */,
+			);
+			name = "侧边栏（抽屉）";
+			sourceTree = "<group>";
+		};
+		22B276931C1528190059A167 /* Bmob */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Bmob;
+			sourceTree = "<group>";
+		};
+		22B276941C1528300059A167 /* QQ接口登陆 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "QQ接口登陆";
+			sourceTree = "<group>";
+		};
+		22B276961C1529700059A167 /* Frameworks & SDK */ = {
+			isa = PBXGroup;
+			children = (
+				22B276991C1529980059A167 /* Bomb SDK */,
+				22B276981C1529910059A167 /* QQ SDK */,
+				22B276971C1529830059A167 /* System Frameworks */,
+			);
+			name = "Frameworks & SDK";
+			sourceTree = "<group>";
+		};
+		22B276971C1529830059A167 /* System Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B276B41C152A6D0059A167 /* CoreLocation.framework */,
+				22B276B21C152A620059A167 /* Security.framework */,
+				22B276B01C152A590059A167 /* CoreGraphics.framework */,
+				22B276AE1C152A450059A167 /* MobileCoreServices.framework */,
+				22B276AC1C152A320059A167 /* CFNetwork.framework */,
+				22B276AA1C152A230059A167 /* CoreTelephony.framework */,
+				22B276A81C152A170059A167 /* SystemConfiguration.framework */,
+				22B276A61C152A070059A167 /* libz.1.2.5.tbd */,
+				22B276A41C1529F80059A167 /* libicucore.tbd */,
+				22B276A21C1529EB0059A167 /* libsqlite3.tbd */,
+				22B276A01C1529DE0059A167 /* AVFoundation.framework */,
+				22B2769E1C1529D50059A167 /* MediaPlayer.framework */,
+				22B2769C1C1529CC0059A167 /* libstdc++.tbd */,
+				22B2769A1C1529C00059A167 /* libz.1.1.3.tbd */,
+			);
+			name = "System Frameworks";
+			sourceTree = "<group>";
+		};
+		22B276981C1529910059A167 /* QQ SDK */ = {
+			isa = PBXGroup;
+			children = (
+				223E13091C2FF34A00674B55 /* TencentOpenAPI.framework */,
+				22B276B61C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = "QQ SDK";
+			sourceTree = "<group>";
+		};
+		22B276991C1529980059A167 /* Bomb SDK */ = {
+			isa = PBXGroup;
+			children = (
+				223E130B1C2FF37A00674B55 /* BmobSDK.framework */,
+				22B276C41C152D900059A167 /* Bmob_iOS_SDK更新历史.txt */,
+			);
+			name = "Bomb SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		221060D51C040D5000B49A89 /* OneNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221061031C040D5100B49A89 /* Build configuration list for PBXNativeTarget "OneNote" */;
+			buildPhases = (
+				221060D21C040D5000B49A89 /* Sources */,
+				221060D31C040D5000B49A89 /* Frameworks */,
+				221060D41C040D5000B49A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneNote;
+			productName = OneNote;
+			productReference = 221060D61C040D5000B49A89 /* OneNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		221060EE1C040D5100B49A89 /* OneNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221061061C040D5100B49A89 /* Build configuration list for PBXNativeTarget "OneNoteTests" */;
+			buildPhases = (
+				221060EB1C040D5100B49A89 /* Sources */,
+				221060EC1C040D5100B49A89 /* Frameworks */,
+				221060ED1C040D5100B49A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221060F11C040D5100B49A89 /* PBXTargetDependency */,
+			);
+			name = OneNoteTests;
+			productName = OneNoteTests;
+			productReference = 221060EF1C040D5100B49A89 /* OneNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		221060F91C040D5100B49A89 /* OneNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221061091C040D5100B49A89 /* Build configuration list for PBXNativeTarget "OneNoteUITests" */;
+			buildPhases = (
+				221060F61C040D5100B49A89 /* Sources */,
+				221060F71C040D5100B49A89 /* Frameworks */,
+				221060F81C040D5100B49A89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				221060FC1C040D5100B49A89 /* PBXTargetDependency */,
+			);
+			name = OneNoteUITests;
+			productName = OneNoteUITests;
+			productReference = 221060FA1C040D5100B49A89 /* OneNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221060CE1C040D5000B49A89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Dongjia Zheng";
+				TargetAttributes = {
+					221060D51C040D5000B49A89 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					221060EE1C040D5100B49A89 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 221060D51C040D5000B49A89;
+					};
+					221060F91C040D5100B49A89 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 221060D51C040D5000B49A89;
+					};
+				};
+			};
+			buildConfigurationList = 221060D11C040D5000B49A89 /* Build configuration list for PBXProject "OneNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 221060CD1C040D5000B49A89;
+			productRefGroup = 221060D71C040D5000B49A89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221060D51C040D5000B49A89 /* OneNote */,
+				221060EE1C040D5100B49A89 /* OneNoteTests */,
+				221060F91C040D5100B49A89 /* OneNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		221060D41C040D5000B49A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B276B81C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				22B276C51C152D900059A167 /* Bmob_iOS_SDK更新历史.txt in Resources */,
+				221060E61C040D5000B49A89 /* Images.xcassets in Resources */,
+				22B276791C0F19760059A167 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221060ED1C040D5100B49A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221060F81C040D5100B49A89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221060D21C040D5000B49A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221060DE1C040D5000B49A89 /* AppDelegate.m in Sources */,
+				22B2768B1C13D8C10059A167 /* LeftSlideViewController.m in Sources */,
+				221060DB1C040D5000B49A89 /* main.m in Sources */,
+				22B276731C0F14400059A167 /* HomeView.m in Sources */,
+				22B276691C0EEC240059A167 /* GuideViewController.m in Sources */,
+				22B276921C13D8DC0059A167 /* LeftSortsViewController.m in Sources */,
+				22B276911C13D8DC0059A167 /* otherViewController.m in Sources */,
+				22B2768C1C13D8C10059A167 /* UIView_extra.m in Sources */,
+				22B2766E1C0EF1400059A167 /* GuideView.m in Sources */,
+				22B276761C0F14550059A167 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221060EB1C040D5100B49A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221060F41C040D5100B49A89 /* OneNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221060F61C040D5100B49A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221060FF1C040D5100B49A89 /* OneNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		221060F11C040D5100B49A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221060D51C040D5000B49A89 /* OneNote */;
+			targetProxy = 221060F01C040D5100B49A89 /* PBXContainerItemProxy */;
+		};
+		221060FC1C040D5100B49A89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221060D51C040D5000B49A89 /* OneNote */;
+			targetProxy = 221060FB1C040D5100B49A89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22B2767B1C0F19760059A167 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B2767A1C0F19760059A167 /* en */,
+				22B2767C1C0F19FA0059A167 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		221061011C040D5100B49A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-fobjc-arc";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		221061021C040D5100B49A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-fobjc-arc";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		221061041C040D5100B49A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/dj/Documents/大学华南理工/----------大三-----------/大三（下）/SRP/黄小兵/OneNote/OneNote/OneNotePrefixHeader.pch";
+				INFOPLIST_FILE = OneNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		221061051C040D5100B49A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+					"$(PROJECT_DIR)/QQ",
+					SDK,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/dj/Documents/大学华南理工/----------大三-----------/大三（下）/SRP/黄小兵/OneNote/OneNote/OneNotePrefixHeader.pch";
+				INFOPLIST_FILE = OneNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		221061071C040D5100B49A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneNote.app/OneNote";
+			};
+			name = Debug;
+		};
+		221061081C040D5100B49A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OneNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneNote.app/OneNote";
+			};
+			name = Release;
+		};
+		2210610A1C040D5100B49A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2210610B1C040D5100B49A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OneNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OneNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221060D11C040D5000B49A89 /* Build configuration list for PBXProject "OneNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221061011C040D5100B49A89 /* Debug */,
+				221061021C040D5100B49A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221061031C040D5100B49A89 /* Build configuration list for PBXNativeTarget "OneNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221061041C040D5100B49A89 /* Debug */,
+				221061051C040D5100B49A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221061061C040D5100B49A89 /* Build configuration list for PBXNativeTarget "OneNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221061071C040D5100B49A89 /* Debug */,
+				221061081C040D5100B49A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221061091C040D5100B49A89 /* Build configuration list for PBXNativeTarget "OneNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2210610A1C040D5100B49A89 /* Debug */,
+				2210610B1C040D5100B49A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221060CE1C040D5000B49A89 /* Project object */;
+}
