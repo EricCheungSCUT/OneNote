@@ -40,6 +40,9 @@
 		22B276B81C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22B276B61C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		22B276C51C152D900059A167 /* Bmob_iOS_SDK更新历史.txt in Resources */ = {isa = PBXBuildFile; fileRef = 22B276C41C152D900059A167 /* Bmob_iOS_SDK更新历史.txt */; };
 		22B276C61C15851D0059A167 /* TencentOpenApi_IOS_Bundle.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B276B61C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		E146FCBE1C39C59600FE2B44 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E146FCBC1C39C59600FE2B44 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		E146FCBF1C39C59600FE2B44 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E146FCBD1C39C59600FE2B44 /* TencentOpenAPI.framework */; };
+		E146FCC11C39C5D200FE2B44 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E146FCC01C39C5D200FE2B44 /* BmobSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +112,9 @@
 		22B276B41C152A6D0059A167 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		22B276B61C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = "QQ SDK/TencentOpenApi_IOS_Bundle.bundle"; sourceTree = "<group>"; };
 		22B276C41C152D900059A167 /* Bmob_iOS_SDK更新历史.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Bmob_iOS_SDK更新历史.txt"; path = "Bmob SDK/Bmob_SDK_iOS_v1.6.5/Bmob_iOS_SDK更新历史.txt"; sourceTree = "<group>"; };
+		E146FCBC1C39C59600FE2B44 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = "QQ SDK/iOS_OpenSDK_2.9.3_all/TencentOpenApi_IOS_Bundle.bundle"; sourceTree = SOURCE_ROOT; };
+		E146FCBD1C39C59600FE2B44 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = "QQ SDK/iOS_OpenSDK_2.9.3_all/TencentOpenAPI.framework"; sourceTree = SOURCE_ROOT; };
+		E146FCC01C39C5D200FE2B44 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BmobSDK.framework; path = "Bmob SDK/Bmob_SDK_iOS_v1.6.5/BmobSDK.framework"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B276B51C152A6D0059A167 /* CoreLocation.framework in Frameworks */,
+				E146FCBF1C39C59600FE2B44 /* TencentOpenAPI.framework in Frameworks */,
 				22B276B31C152A620059A167 /* Security.framework in Frameworks */,
 				22B276B11C152A590059A167 /* CoreGraphics.framework in Frameworks */,
 				22B276AF1C152A450059A167 /* MobileCoreServices.framework in Frameworks */,
@@ -124,6 +131,7 @@
 				22B276AB1C152A230059A167 /* CoreTelephony.framework in Frameworks */,
 				22B276A91C152A170059A167 /* SystemConfiguration.framework in Frameworks */,
 				223E130A1C2FF34A00674B55 /* TencentOpenAPI.framework in Frameworks */,
+				E146FCC11C39C5D200FE2B44 /* BmobSDK.framework in Frameworks */,
 				22B2769D1C1529CC0059A167 /* libstdc++.tbd in Frameworks */,
 				22B2769B1C1529C00059A167 /* libz.1.1.3.tbd in Frameworks */,
 				22B276A71C152A070059A167 /* libz.1.2.5.tbd in Frameworks */,
@@ -259,6 +267,7 @@
 		22B276931C1528190059A167 /* Bmob */ = {
 			isa = PBXGroup;
 			children = (
+				E146FCC01C39C5D200FE2B44 /* BmobSDK.framework */,
 			);
 			name = Bmob;
 			sourceTree = "<group>";
@@ -266,6 +275,8 @@
 		22B276941C1528300059A167 /* QQ接口登陆 */ = {
 			isa = PBXGroup;
 			children = (
+				E146FCBC1C39C59600FE2B44 /* TencentOpenApi_IOS_Bundle.bundle */,
+				E146FCBD1C39C59600FE2B44 /* TencentOpenAPI.framework */,
 			);
 			name = "QQ接口登陆";
 			sourceTree = "<group>";
@@ -426,6 +437,7 @@
 				22B276B81C152C9B0059A167 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				22B276C51C152D900059A167 /* Bmob_iOS_SDK更新历史.txt in Resources */,
 				221060E61C040D5000B49A89 /* Images.xcassets in Resources */,
+				E146FCBE1C39C59600FE2B44 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				22B276791C0F19760059A167 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,6 +542,12 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/QQ",
+					SDK/iOS_OpenSDK_2.9.3_all,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -544,6 +562,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/QQ",
+					SDK/iOS_OpenSDK_2.9.3_all,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -574,6 +598,12 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/QQ",
+					SDK/iOS_OpenSDK_2.9.3_all,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -582,6 +612,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/QQ",
+					SDK/iOS_OpenSDK_2.9.3_all,
+					"$(PROJECT_DIR)/Bmob",
+					SDK/Bmob_SDK_iOS_v1.6.5,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-fobjc-arc";
@@ -593,36 +629,17 @@
 		221061041C040D5100B49A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
+					SDK/iOS_OpenSDK_2.9.3_all,
 					"$(PROJECT_DIR)/Bmob",
 					SDK/Bmob_SDK_iOS_v1.6.5,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/dj/Documents/大学华南理工/----------大三-----------/大三（下）/SRP/黄小兵/OneNote/OneNote/OneNotePrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OneNote/OneNotePrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = OneNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNote;
@@ -633,36 +650,17 @@
 		221061051C040D5100B49A89 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
 					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
-					"$(PROJECT_DIR)/Bmob",
-					SDK/Bmob_SDK_iOS_v1.6.5,
-					"$(PROJECT_DIR)/QQ",
-					SDK,
+					SDK/iOS_OpenSDK_2.9.3_all,
 					"$(PROJECT_DIR)/Bmob",
 					SDK/Bmob_SDK_iOS_v1.6.5,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/dj/Documents/大学华南理工/----------大三-----------/大三（下）/SRP/黄小兵/OneNote/OneNote/OneNotePrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/OneNote/OneNotePrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = OneNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = scut.OneNote;
